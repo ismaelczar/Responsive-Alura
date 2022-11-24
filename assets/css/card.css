@@ -1,0 +1,60 @@
+.card {
+  background-color: var(--branco);
+  margin: 16px 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+}
+
+.linha1 {
+  display: flex;
+  padding: 1em 0.5em 0em 0.5em;
+}
+
+.card_titulo {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--verde);
+}
+
+.card_subtitulo {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--violeta);
+  padding: 0.5em 0;
+}
+
+.card_texto {
+  font-size: 14px;
+  line-height: 21px;
+  padding: 1em 0.5em 1em 0em;
+}
+
+.linha2 {
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+ 
+  padding: 1em 0.5em;
+}
+
+.card_lista {
+  display: flex;
+
+}
+
+.card_lista--item {
+  padding: 0 0.5em;
+}
+
+.card_lista--ancora {
+  padding: 12px 0px;
+  background-color: var(--violeta-claro);
+  color: var(--branco);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  width: 188px;
+  text-align: center;
+}
+

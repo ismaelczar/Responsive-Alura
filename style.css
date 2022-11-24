@@ -1,0 +1,24 @@
+@import url(assets/css/header.css);
+@import url(assets/css/banner.css);
+@import url(assets/css/carrocel.css);
+@import url(assets/css/card.css);
+@import url(assets/css/seguimentos.css);
+@import url(assets/css/footer.css);
+
+:root {
+  --background-branco-escuro: #EBECEE;
+  --branco: #ffffff;
+  --font: 'Poppins', sans-serif;
+  --violeta: #440099;
+  --violeta-claro: #3e0099;
+  --verde: #a8ad00;
+  --degrade: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(68, 0, 153, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+body {
+  background: var(--background-branco-escuro);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+}

@@ -1,0 +1,36 @@
+.secao_email {
+  padding: 1em;
+  background-color:var(--branco);
+
+}
+
+.secao_email--titulo {
+  color: var(--violeta);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.secao_email--texto{
+  margin: 1em 0.5em;
+  text-align: center;
+  color: var(--violeta-claro);
+
+}
+
+.secao_input {
+  width: 95%;
+  border: 1px solid #000000;
+  padding: 1em 0.5em;  
+  border-radius: 16px;
+  
+  
+}
+
+.secao_input::placeholder {
+  color: #000000;
+  background-image: url("../img/email.svg");
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 16px;
+}

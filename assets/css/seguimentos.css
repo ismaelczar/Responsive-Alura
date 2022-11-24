@@ -1,0 +1,32 @@
+.seguimentos {
+  
+  text-align: center;  
+  /*APLICAR O ALINHAMENTO, COR, E ESPAÇAMENTO*/
+  background-color: var(--verde);
+}
+
+.seguimentos_titulo {
+  padding: 1em 0 0 0;
+  color: var(--branco);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.seguimentos_lista {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.seguimentos_item {
+  margin: 2em 0.5em;
+}
+
+.seguimentos_link {
+  padding: 1em;
+  background-color: var(--violeta-claro);
+  color: var(--branco);
+  text-decoration: none;
+  border-radius: 10px;
+}
