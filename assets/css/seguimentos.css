@@ -30,3 +30,15 @@
   text-decoration: none;
   border-radius: 10px;
 }
+
+@media screen and (min-width:1024px) {
+
+  .seguimentos_link {
+    font-size: 22px;
+  }
+
+  .seguimentos_titulo {
+    margin: 2em 0 1em 0;
+  }
+
+}

@@ -73,6 +73,10 @@ background: var(--branco);
   display: none;
 }
 
+.Container_item--texto {
+  display: none;
+}
+
 @media screen and (min-width:1024px){
  
   .cabecalho_titulo {
@@ -98,5 +102,37 @@ background: var(--branco);
     padding: 0 1em;
     font-weight: 600;
   }
-  
+
+  .cabecalho_lista--input {
+    display: none;
+  }
+
+  .cabecalho_lista--input:checked ~ .cabecalho_lista {
+    display: block;
+  }
+
+  .cabecalho_lista {
+    width: auto;
+  }
+
+}
+
+@media screen and (min-width:1728px) {
+  .cabecalho_titulo {
+    padding-right: 2em;
+  }
+
+  .cabecalho_desktop {
+    margin-right: auto;
+  }
+
+  .Container_item--texto {
+    display: block;
+  }
+
+  .container_item {
+    display: flex;
+    align-items: center;
+  }
+
 }

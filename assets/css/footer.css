@@ -1,6 +1,6 @@
 .secao_email {
   padding: 1em;
-  background-color:var(--branco);
+  background-color: var(--branco);
 
 }
 
@@ -11,7 +11,7 @@
   font-weight: 600;
 }
 
-.secao_email--texto{
+.secao_email--texto {
   margin: 1em 0.5em;
   text-align: center;
   color: var(--violeta-claro);
@@ -21,10 +21,10 @@
 .secao_input {
   width: 95%;
   border: 1px solid #000000;
-  padding: 1em 0.5em;  
+  padding: 1em 0.5em;
   border-radius: 16px;
-  
-  
+
+
 }
 
 .secao_input::placeholder {
@@ -33,4 +33,60 @@
   background-repeat: no-repeat;
   text-align: center;
   font-size: 16px;
+}
+
+@media screen and (min-width:1024px) {
+
+  .secao_email--container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .secao_input {
+    width: 35%;
+    margin: 15px 0;
+
+  }
+
+  .secao_input::placeholder {
+    background-position: 3em;
+  }
+
+  .secao_email--titulo {
+    font-size: 26px;
+
+  }
+
+  .rodape {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .meu_nome {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--verde);
+  }
+
+  .tecnologias_titulo {
+    font-size:18px;
+    font-weight: 700;
+    margin: 12px 0;
+    color:var(--violeta-claro)
+  }
+
+  .tecnologias_item {
+    display: flex;
+    align-items: center;
+    margin:0.5em 0;
+    
+  }
+
+  .tecnologias_link {
+    margin-left: 6px;
+    font-size: 14px;
+  }
+
+
+
 }
