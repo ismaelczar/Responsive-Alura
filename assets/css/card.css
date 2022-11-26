@@ -47,7 +47,6 @@
   padding: 0 0.5em;
 }
 
-
 .card_lista--ancora {
   padding: 12px 0px;
   background-color: var(--violeta-claro);
@@ -64,5 +63,36 @@
   .card {
     width: 50%;
     margin: 2em auto;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .card {
+    width:40%
+  }
+   
+  .linha1 {
+    justify-content: space-between;
+
+  }
+
+  .card_titulo {
+    font-size: 32px;
+  }
+
+  .card_subtitulo {
+    font-size: 22px;
+
+  }
+
+  .card_lista--ancora {
+    padding: 20px 0px;
+    font-size: 32px;
+    font-weight: 300;
+
+  }
+
+  .swiper-button-prev, .swiper-nutton-next {
+    display: block;
   }
 }

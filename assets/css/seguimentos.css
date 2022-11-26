@@ -42,3 +42,23 @@
   }
 
 }
+
+@media screen and (min-width:1728px) {
+  .seguimentos {
+    padding:0 0 2em 0;
+  }
+  
+  .seguimentos_titulo {
+    font-size: 32px;
+
+  }
+  .seguimentos_link {
+    font-size:  26px;
+  }
+
+  .seguimentos_lista {
+    margin:1em auto;
+    width: 60vw;
+
+  }
+}

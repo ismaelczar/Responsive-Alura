@@ -28,11 +28,18 @@
 
 .cabecalho_botao:checked~.cabecalho_lista {
   display: block;
+  width: 150px;
 
 }
 
-.cabecalho_botao:checked~.cabecalho_menu--hamburger {
-background: var(--branco);
+.cabecalho_botao:checked~ .cabecalho_rotulo > .cabecalho_menu--hamburger {
+  background-image: url("../img/MenuAberto.svg");
+  
+}
+
+.cabecalho_botao:checked ~ .cabecalho_rotulo {
+  background-color: var(--violeta);
+
 }
 
 .container_item {
@@ -96,6 +103,7 @@ background: var(--branco);
 
   .cabecalho_lista--desktop {
     display: flex;
+    
   }
 
   .cabecaldo_lista--desktop_item {
@@ -112,7 +120,7 @@ background: var(--branco);
   }
 
   .cabecalho_lista {
-    width: auto;
+    width: 100px;
   }
 
 }
@@ -128,11 +136,29 @@ background: var(--branco);
 
   .Container_item--texto {
     display: block;
+    margin-left: 0.5em;
+    color: black;
   }
 
   .container_item {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: var(--verde);
+    font-size: 18px;
   }
+
+  .cabecalho_lista--desktop_item {
+    padding: 2em 1em;
+  }
+
+  .cabecalho_lista--item:hover {
+    background-color: var(--verde);
+    color:var(--branco)
+  }
+
+
+  
+   
 
 }

@@ -4,7 +4,7 @@
   text-align: center;
   padding: 1em 0 0.5em 0;
   background-color: var(--branco);
-  color: var(--violeta);
+  color: black;
   text-transform: uppercase;
 }
 
@@ -30,9 +30,25 @@
     font-size: 25px;
   }
 
- 
+}
+
+@media screen and (min-width:1728px) {
+
+  .container_desktop {
+    display:flex;
+  }
+
+  .swiper {
+    width: 50%;
+  }
+
+  .carrocel_seguimentos {
+    margin-top: 1em;
+  }
+
+  .linha2 {
+    margin-top: 40px;
+  }
 
 
-
-  
 }

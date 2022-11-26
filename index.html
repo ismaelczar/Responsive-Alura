@@ -15,7 +15,7 @@
   <header class="cabecalho">
     <div class="container">
       <input type="checkbox" name="menu" id="menu" class="cabecalho_botao">
-      <label for="menu">
+      <label for="menu" class="cabecalho_rotulo">
         <span class="cabecalho_menu--hamburger container_item"></span>
       </label>
       <ul class="cabecalho_lista">
@@ -41,12 +41,13 @@
     </div>
 
     <div class="cabecalho_desktop">
+      
       <ul class="cabecalho_lista--desktop">
         <input type="checkbox" id="solucoes" class="cabecalho_lista--input">
-        <label for="solucoes">
-          <li class="cabecaldo_lista--desktop_item">SOBRE</li>
+        <label for="solucoes" class="cabecalho_rotulo">
+          <li class="cabecalho_lista--desktop_item">SOBRE</li>
         </label>
-        <li class="cabecaldo_lista--desktop_item">SOLUÇÕES</li>
+        <li class="cabecalho_lista--desktop_item">SOLUÇÕES</li>
 
         <ul class="cabecalho_lista">
           <li class="cabecalho_lista--item">
@@ -56,9 +57,10 @@
             <a href="#" class="cabecalho_lista--link">LOREM</a>
           </li>
         </ul>
-        <li class="cabecaldo_lista--desktop_item">ORÇAMENTO</li>
-        <li class="cabecaldo_lista--desktop_item">CONTATO</li>
+        <li class="cabecalho_lista--desktop_item">ORÇAMENTO</li>
+        <li class="cabecalho_lista--desktop_item">CONTATO</li>
       </ul>
+   
     </div>
 
     <div class="container">
@@ -68,7 +70,7 @@
       </a>
       <a href="" class="container_item">
         <img src="assets/img/Usuario.png" alt="Usuario">
-        <p class="Container_item--texto">Minhas compras</p>
+        <p class="Container_item--texto">Perfil</p>
       </a>
     </div>
   </header>
@@ -82,91 +84,83 @@
   <section class="carrocel">
     <h2 class="carrocel_titulo">Solução completa para sua empresa</h2>
 
-    <!-- Classe container -->
-    <div class="swiper">
-
-      <!-- Aqui são as bolinhas .. -->
-      <div class="swiper-pagination"></div>
-
-      <div class="swiper-wrapper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-slide"><img src="assets/img/ApacheKafka.svg" alt="foto de exemplo"></div>
-        <div class="swiper-slide"><img src="assets/img/Portugol.svg" alt="foto de exemplo"></div>
-        <div class="swiper-slide"><img src="assets/img/Guia Front-end.svg" alt="foto de exemplo"></div>
-        <div class="swiper-slide"><img src="assets/img/Javascript.svg" alt="foto de exemplo"></div>
-        <div class="swiper-slide"><img src="assets/img/UX.svg" alt="foto de exemplo"></div>
-        <!-- ADICIONE FOTOS PARA O CARROCEU -->
-        ....
-      </div>
-
-      <!-- Esses são as setinhas laterais -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
-
-    <div class="card">
-      <div class="linha1">
-        <div class="card_apresentacao">
-          <h2 class="card_titulo">A UPCIGA</h2>
-          <h3 class="card_subtitulo">É uma empresa que pensa em você</h3>
-          <p class="card_texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <div class="container_desktop">
+      <!-- Classe container -->
+      <div class="swiper">
+        <!-- Aqui são as bolinhas .. -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-slide"><img src="assets/img/ApacheKafka.PNG" alt="foto de exemplo"></div>
+          <div class="swiper-slide"><img src="assets/img/Portugol.PNG" alt="foto de exemplo"></div>
+          <div class="swiper-slide"><img src="assets/img/Guia Front-end.PNG" alt="foto de exemplo"></div>
+          <div class="swiper-slide"><img src="assets/img/Javascript.PNG" alt="foto de exemplo"></div>
+          <div class="swiper-slide"><img src="assets/img/UX.PNG" alt="foto de exemplo"></div>
+          <!-- ADICIONE FOTOS PARA O CARROCEU -->
+          ....
         </div>
-        <img src="assets/img/Artboard1.png" alt="Artboard da empresa" class="card_imagem">
+        <!-- Esses são as setinhas laterais -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
-
-
-      <div class="linha2">
-        <ul class="card_lista">
-          <!-- <li class="card_lista--item"><img src="assets/img/compras.svg" alt="compras"></li> -->
-          <li class="card_lista--item"><img src="assets/img/favoritos.svg" alt="favoritos"></li>
-        </ul>
-        <a href="#" class="card_lista--ancora">Saiba mais</a>
+      <div class="card">
+        <div class="linha1">
+          <div class="card_apresentacao">
+            <h2 class="card_titulo">A UPCIGA</h2>
+            <h3 class="card_subtitulo">É uma empresa que pensa em você</h3>
+            <p class="card_texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <img src="assets/img/Artboard1.png" alt="Artboard da empresa">
+        </div>
+        <div class="linha2">
+          <ul class="card_lista">
+            <!-- <li class="card_lista--item"><img src="assets/img/compras.svg" alt="compras"></li> -->
+            <li class="card_lista--item"><img src="assets/img/favoritos.svg" alt="favoritos"></li>
+          </ul>
+          <a href="#" class="card_lista--ancora">Saiba mais</a>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="carrocel">
-    <h2 class="carrocel_titulo">SEGUIMENTOS</h2>
+    <h2 class="carrocel_titulo carrocel_seguimentos">LOREM ...</h2>
 
-    <!-- Classe container -->
-    <div class="swiper">
-
-      <!-- Aqui são as bolinhas .. -->
-      <div class="swiper-pagination"></div>
-
-      <div class="swiper-wrapper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-slide"><img src="assets/img/ApacheKafka.svg" alt="foto de exemplo"></div>
-        <div class="swiper-slide"><img src="assets/img/Portugol.svg" alt="foto de exemplo"></div>
-        <div class="swiper-slide"><img src="assets/img/Guia Front-end.svg" alt="foto de exemplo"></div>
-        <div class="swiper-slide"><img src="assets/img/Javascript.svg" alt="foto de exemplo"></div>
-        <div class="swiper-slide"><img src="assets/img/UX.svg" alt="foto de exemplo"></div>
-        <!-- ADICIONE FOTOS PARA O CARROCEU -->
-        ....
-      </div>
-
-      <!-- Esses são as setinhas laterais -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
-
-    <div class="card">
-      <div class="linha1">
-        <div class="card_apresentacao">
-          <h2 class="card_titulo">LOREM</h2>
-          <h3 class="card_subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-          <p class="card_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <div class="container_desktop">
+      <!-- Classe container -->
+      <div class="swiper">
+        <!-- Aqui são as bolinhas .. -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-slide"><img src="assets/img/ApacheKafka.PNG" alt="foto de exemplo"></div>
+          <div class="swiper-slide"><img src="assets/img/Portugol.PNG" alt="foto de exemplo"></div>
+          <div class="swiper-slide"><img src="assets/img/Guia Front-end.PNG" alt="foto de exemplo"></div>
+          <div class="swiper-slide"><img src="assets/img/Javascript.PNG" alt="foto de exemplo"></div>
+          <div class="swiper-slide"><img src="assets/img/UX.PNG" alt="foto de exemplo"></div>
+          <!-- ADICIONE FOTOS PARA O CARROCEU -->
+          ....
         </div>
-        <img src="assets/img/Artboard2.png" alt="Artboard da empresa" class="card_imagem">
+        <!-- Esses são as setinhas laterais -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
-
-
-      <div class="linha2">
-        <ul class="card_lista">
-          <!-- <li class="card_lista--item"><img src="assets/img/compras.svg" alt="compras"></li> -->
-          <li class="card_lista--item"><img src="assets/img/favoritos.svg" alt="favoritos"></li>
-        </ul>
-        <a href="#" class="card_lista--ancora">Saiba mais</a>
+      <div class="card">
+        <div class="linha1">
+          <div class="card_apresentacao">
+            <h2 class="card_titulo">LOREM</h2>
+            <h3 class="card_subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p class="card_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <img src="assets/img/Artboard2.png" alt="Artboard da empresa">
+        </div>
+        <div class="linha2">
+          <ul class="card_lista">
+            <!-- <li class="card_lista--item"><img src="assets/img/compras.svg" alt="compras"></li> -->
+            <li class="card_lista--item"><img src="assets/img/favoritos.svg" alt="favoritos"></li>
+          </ul>
+          <a href="#" class="card_lista--ancora">Saiba mais</a>
+        </div>
       </div>
     </div>
   </section>
@@ -206,7 +200,7 @@
     <div class="secao_email--container">
       <div class="email_container">
         <h2 class="secao_email--titulo">Fique por dentro das novidades!</h2>
-        <p class="secao_email--texto">Solicite um orçamento e conheça as vantagens de ser um cliente UpCiga!</p>
+        <p class="secao_email--texto">Solicite um orçamento e conheça as vantagens de ser um cliente UpCiga</p>
       </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="secao_input">
     </div>
@@ -214,6 +208,7 @@
     <hr />
     <div class="rodape">
       <p class="meu_nome">Cézinha</p>
+      
       <ul class="tecnologias">
         <li class="tecnologias_titulo">Tecnologias usadas</li>
         <li class="tecnologias_item">
@@ -264,7 +259,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script>
     const swiper = new Swiper('.swiper', {
-      // speed: 400 seria a velocidade
+      speed: 400 ,
       spaceBetween: 10,
       slidesPerView: 3,
       pagination: {
