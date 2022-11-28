@@ -13,7 +13,7 @@
 | :fire: Desafio     | Não tem
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://user-images.githubusercontent.com/47289706/188709474-182615dc-2d36-4355-ac0a-b78cc1d16350.png#vitrinedev)
+![]()
 </div>
 
 <br>
